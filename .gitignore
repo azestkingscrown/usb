@@ -1,0 +1,24 @@
+# Android Gradle build output
+.gradle/
+build/
+app/build/
+local.properties
+
+# IDE configurations
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+
+# Markdown exclusion rule
+# Exclude all markdown files except README.md
+*.md
+!README.md
+.cxx/
+app/src/main/cpp/deps/
+build_deps_work/
+wimlib-1.14.4/
+wimlib-1.14.4.tar.gz
+libcdio-2.1.0/
+libcdio-2.1.0.tar.bz2
